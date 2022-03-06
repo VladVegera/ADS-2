@@ -9,7 +9,7 @@ if (n == 0) {
   return 1;
 } else {
 for (int i = 1; i < n; i++) {
- base = value * base;
+  base = value * base;
 }
 }
 return base;
@@ -33,7 +33,7 @@ double exps = 0;
 for (uint16_t i = 0; i <= count; i++) {
   exps += calcItem(x, i);
 }
-return exps
+return exps;
 }
 
 double sinn(double x, uint16_t count) {
